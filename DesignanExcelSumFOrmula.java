@@ -1,23 +1,7 @@
-package Leetcode;
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Stack;
-
-//If a cell have the formula like c3 = c3+1 
-// then it is a circular formula  which 
-// is never end so each cell does not have
-// its name as child.
-
-
-// the formulat does not have cycle
-// like a3 is child  of b3 and b3 is a child of c3 and c3 is a  child of  a3
-
-
-// it is possisble that  one parent have more one child
-// and one child have more parents
-
-// it  is like graph but without cycle
 
 
 class Excel 
